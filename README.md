@@ -1,6 +1,6 @@
-# Online Code Compiler
+<h1 align="center">Online Code Compiler</h1>
 
-Welcome. This is a web application that compiles and runs code in `C++` and `Python`. 
+Welcome. This is a web application that compiles and runs code in `C++` and `Python`. <br /> <br />
 <img src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/app.png" height="70%" width="100%" >
 
 ### How to use
@@ -22,10 +22,10 @@ Then follow the below guide to start (client) frontend and server (backend) part
 - Optional: If you have `nodemon` installed on your machine, then you can use `npm run dev` instead of `npm run`. This will keep the backend in check on any changes made by you, and refresh the server accordingly.
 
 #### Change programming language
-<img src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/language-selection.gif" height="40%" width="60%">
+<img src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/language-selection.gif" height="30%" width="60%" align="center">
 
 #### Code exceution status
-<img src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/execution-status.gif" height="40%" width="60%">
+<img src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/execution-status.gif" height="30%" width="60%" align="center">
 
 #### Switch theme
-<img src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/theme-change.gif" height="70%" width="100%">
+<img src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/theme-change.gif" height="70%" width="100%" align="center">
