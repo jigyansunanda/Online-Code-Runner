@@ -1,6 +1,6 @@
 <h1 align="center">Online Code Compiler</h1>
 
-<p align="center">Welcome. This is a web application that compiles and runs code in `C++` and `Python`.</p>
+<p align="center">Welcome. This is a web application that compiles and runs code in <code>C++</code> and <code>Python</code>.</p>
 <img src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/app.png" height="70%" width="100%" >
 
 <h3 align="center">How to use</h4>
