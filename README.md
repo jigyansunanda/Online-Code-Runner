@@ -25,10 +25,13 @@ Then follow the below guide to start (client) frontend and server (backend) part
 - Optional: If you have `nodemon` installed on your machine, then you can use `npm run dev` instead of `npm run`. This will keep the backend in check on any changes made by you, and refresh the server accordingly.
 
 <h4 align="center">Change programming language</h4>
-<img src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/language-selection.gif" height="30%" width="60%" align="center">
+
+<img align="center" src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/language-selection.gif" height="30%" width="60%">
 
 <h4 align="center">Code exceution status</h4>
-<img src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/execution-status.gif" height="30%" width="60%" align="center">
+
+<img  align="center" src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/execution-status.gif" height="30%" width="60%">
 
 <h4 align="center">Switch theme</h4>
-<img src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/theme-change.gif" height="70%" width="100%" align="center">
+
+<img align="center" src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/theme-change.gif" height="70%" width="100%">
