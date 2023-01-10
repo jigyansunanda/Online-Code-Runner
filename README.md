@@ -1,11 +1,11 @@
-<h1 align="center">Online Code Compiler</h1>
+<h1 align="center">Online Code Runner</h1>
 
 <p align="center">Welcome. This is an online text editor, that runs code in <code>C++</code> and <code>Python</code>.</p>
 <img src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/app.png" height="70%" width="100%" >
 
 <h3 align="center">How to use</h4>
 
-- To try the compiler locally, download the codebase. 
+- To try the code runner locally, download the codebase. 
 - Make sure you have following installed in your system: `react`, `NodeJS`, `Mongodb`, `Redis` and `Bull`. I have also used `nodemon` for help in development while working in `NodeJS`. 
 - To run the client-written code in their corresponding languages, you need to have `GCC` compiler and `python` installed in your machine.
 
