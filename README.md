@@ -1,7 +1,7 @@
 <h1 align="center">Online Code Runner</h1>
 
 <p align="center">Welcome. This is an online text editor, that runs code in <code>C++</code> and <code>Python</code>.</p>
-<img src="https://github.com/jigyansunanda/Online-Code-Runner/blob/4-application-name-is-misleading/media/app-screenshot.png" height="70%" width="100%" >
+<img src="https://github.com/jigyansunanda/Online-Code-Runner/blob/master/media/app-screenshot.png" height="70%" width="100%" >
 
 <h3 align="center">How to use</h4>
 
@@ -26,15 +26,15 @@ Then follow the below guide to start (client) frontend and server (backend) part
 
 <h3 align="center">Change programming language</h3>
 <p align="center">
-<img src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/language-selection.gif" height="30%" width="60%">
+<img src="https://github.com/jigyansunanda/Online-Code-Runner/blob/master/media/language-selection.gif" height="30%" width="60%">
 </p>
 
 <h3 align="center">Code exceution status</h3>
 <p align="center">
-<img src="https://github.com/jigyansunanda/Online-Code-Compiler/blob/master/media/execution-status.gif" height="30%" width="60%">
+<img src="https://github.com/jigyansunanda/Online-Code-Runner/blob/master/media/execution-status.gif" height="30%" width="60%">
 </p>
 
 <h3 align="center">Switch theme</h3>
 <p align="center">
-<img src="https://github.com/jigyansunanda/Online-Code-Runner/blob/4-application-name-is-misleading/media/theme-switch.gif" height="70%" width="100%">
+<img src="https://github.com/jigyansunanda/Online-Code-Runner/blob/master/media/theme-switch.gif" height="70%" width="100%">
 </p>
