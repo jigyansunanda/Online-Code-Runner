@@ -50,7 +50,7 @@ app.get("/status", async (req, res) => {
 });
 
 app.post("/run", async (req, res) => {
-    const { language = "cpp", code, input = "" } = req.body;
+    const { language = "python", code, input = "" } = req.body;
     if (code === undefined) {
         return res
             .status(400)

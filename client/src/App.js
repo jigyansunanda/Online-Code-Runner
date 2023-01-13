@@ -27,7 +27,7 @@ const outputOptions = {
 };
 
 function App() {
-    const [language, setLanguage] = useState("cpp");
+    const [language, setLanguage] = useState("python");
     const [code, setCode] = useState("");
     const [input, setInput] = useState("// enter input here");
     const [output, setOutput] = useState("");
@@ -35,7 +35,7 @@ function App() {
     const [jobId, setJobId] = useState("");
     const [jobDetails, setJobDetails] = useState(null);
     const [editorMode, setEditorMode] = useState("vs-dark");
-    const [languageIcon, setLanguageIcon] = useState("./resources/cpp.png");
+    const [languageIcon, setLanguageIcon] = useState("./resources/python.png");
 
     useEffect(() => {
         setCode(stubs[language]);
@@ -179,8 +179,8 @@ function App() {
                             setLanguageIcon(`./resources/${language}.png`);
                         }}
                     >
-                        <option value={"cpp"}>C++</option>
                         <option value={"python"}>Python</option>
+                        <option value={"cpp"}>C++</option>
                     </select>
                 </button>
                 {/* run button */}
