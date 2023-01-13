@@ -10,6 +10,10 @@ const JobSchema = mongoose.Schema({
         type: String,
         required: true,
     },
+    inputFilePath: {
+        type: String,
+        required: true,
+    },
     submittedAt: {
         type: Date,
         default: Date.now,
