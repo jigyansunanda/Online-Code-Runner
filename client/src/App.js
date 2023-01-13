@@ -29,6 +29,7 @@ const outputOptions = {
 function App() {
     const [language, setLanguage] = useState("cpp");
     const [code, setCode] = useState("");
+    const [input, setInput] = useState("// enter input here");
     const [output, setOutput] = useState("");
     const [status, setStatus] = useState("");
     const [jobId, setJobId] = useState("");
@@ -73,6 +74,7 @@ function App() {
         const payload = {
             language: language,
             code: code,
+            input: input,
         };
         try {
             setJobId("");
@@ -83,7 +85,7 @@ function App() {
                 "http://localhost:5000/run",
                 payload
             );
-            console.log(data);
+            // console.log(data);
             setJobId(data.jobId);
 
             let intervalId;
@@ -201,6 +203,7 @@ function App() {
                     value={code}
                     onChange={(e) => setCode(e)}
                     options={editorOptions}
+                    language={language}
                 />
             </div>
             <div className="std-input-output">
@@ -211,8 +214,9 @@ function App() {
                         theme={editorMode}
                         defaultLanguage="plaintext"
                         defaultValue={"// enter input here"}
-                        value={"// enter input here"}
+                        value={input}
                         options={inputOptions}
+                        onChange={(e) => setInput(e)}
                     />
                 </div>
                 <div className="std-output">

@@ -50,7 +50,7 @@ app.get("/status", async (req, res) => {
 });
 
 app.post("/run", async (req, res) => {
-    const { language = "cpp", code } = req.body;
+    const { language = "cpp", code, input = "" } = req.body;
     if (code === undefined) {
         return res
             .status(400)
@@ -61,9 +61,11 @@ app.post("/run", async (req, res) => {
 
     try {
         // generate c++ file with content from request
-        const filepath = await generateFile(language, code);
+        const files = await generateFile(language, code, input);
 
-        job = await new Job({ language, filepath }).save();
+        const [filepath, inputFilePath] = files;
+
+        job = await new Job({ language, filepath, inputFilePath }).save();
         // console.log(job);
 
         const jobId = job["_id"];
