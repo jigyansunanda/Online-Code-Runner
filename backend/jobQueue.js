@@ -8,7 +8,7 @@ const jobQueue = new Queue("job-queue");
 const WORKERS = 5;
 
 jobQueue.process(WORKERS, async ({ data }) => {
-    console.log(data);
+    // console.log(data);
     const { id: jobId } = data;
     const job = await Job.findById(jobId);
     if (job === undefined) {
@@ -20,9 +20,9 @@ jobQueue.process(WORKERS, async ({ data }) => {
             job["startedAt"] = new Date();
             job["status"] = "Running";
             if (job.language === "cpp") {
-                output = await executeCpp(job.filepath);
+                output = await executeCpp([job.filepath, job.inputFilePath]);
             } else {
-                output = await executePython(job.filepath);
+                output = await executePython([job.filepath, job.inputFilePath]);
             }
 
             job["completedAt"] = new Date();
